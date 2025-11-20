@@ -1,0 +1,13 @@
+{
+  "name": "final-fantasy-vii-api",
+  "version": "1.0.0",
+  "description": "Final Fantasy VII Remake characters API with Express and Pug",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pug": "^3.0.3"
+  }
+}

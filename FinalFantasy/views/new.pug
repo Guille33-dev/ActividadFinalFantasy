@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    title= title
+  body
+    h1 New character
+
+    a(href="/list") Back
+
+    form(method="POST", action="/new")
+      div
+        label(for="id") ID:
+        input(type="number", name="id", id="id", required=true)
+      br
+      div
+        label(for="name") Name:
+        input(type="text", name="name", id="name", required=true)
+      br
+      div
+        label(for="job") Job:
+        input(type="text", name="job", id="job", required=true)
+      br
+      div
+        label(for="weapon") Weapon:
+        input(type="text", name="weapon", id="weapon", required=true)
+      br
+      div
+        label(for="level") Level:
+        input(type="number", name="level", id="level", min="1", max="99", required=true)
+      br
+      button(type="submit") Save
